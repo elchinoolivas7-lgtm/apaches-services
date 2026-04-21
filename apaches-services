@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apaches Services | Professional Home Services</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: radial-gradient(circle at top, #1a1a1a, black);
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 2px solid #222;
+}
+
+.logo {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 52px;
+    margin: 10px 0;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    color: #bbb;
+    font-size: 18px;
+}
+
+/* HERO BUTTON */
+.hero-btn {
+    margin-top: 25px;
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #f5c542, #ffdb6e);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 34px;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #141414;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #222;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #f5c542;
+}
+
+.card h3 {
+    color: #f5c542;
+}
+
+/* ABOUT */
+.about {
+    background: #111;
+}
+
+/* CONTACT */
+.contact {
+    background: black;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    background: #f5c542;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #050505;
+    color: #777;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    h1 { font-size: 36px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- LOGO -->
+    <img src="logo.png" class="logo">
+
+    <h1>APACHES SERVICES</h1>
+
+    <p class="subtitle">
+        Plumbing • Electrical • Interior Work • Repairs
+    </p>
+
+    <p class="subtitle">
+        Plomería • Electricidad • Trabajos de Interior • Reparaciones
+    </p>
+
+    <p>Denver, Colorado</p>
+
+    <button class="hero-btn" onclick="window.location.href='tel:17207255862'">
+        Call Now / Llamar
+    </button>
+</header>
+
+<section class="section">
+    <h2>Our Services / Nuestros Servicios</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Plumbing / Plomería</h3>
+            <p>
+                Leak repairs, installations and maintenance.<br>
+                Reparación de fugas, instalaciones y mantenimiento.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Electrical / Electricidad</h3>
+            <p>
+                Wiring, lighting, panels and troubleshooting.<br>
+                Instalaciones eléctricas y solución de problemas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Interior Work / Interior</h3>
+            <p>
+                Drywall (sheetrock), painting and remodeling.<br>
+                Tabla roca, pintura y remodelaciones.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Repairs / Reparaciones</h3>
+            <p>
+                General home repairs and maintenance.<br>
+                Reparaciones generales del hogar.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section about">
+    <h2>Why Choose Us / Por Qué Elegirnos</h2>
+
+    <p>
+        ✔ Professional Work / Trabajo Profesional <br>
+        ✔ Fast & Reliable / Rápido y Confiable <br>
+        ✔ Local in Denver / Local en Denver <br>
+        ✔ Affordable Prices / Precios Accesibles
+    </p>
+</section>
+
+<section class="section contact">
+    <h2>Contact Us / Contáctanos</h2>
+
+    <p>📍 Denver, Colorado</p>
+
+    <p>📞 720-725-5862</p>
+    <p>📞 720-546-5631</p>
+
+    <a class="contact-btn" href="tel:17207255862">
+        Call 720-725-5862
+    </a>
+
+    <a class="contact-btn" href="tel:17205465631">
+        Call 720-546-5631
+    </a>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 Apaches Services <br>
+        Complete Solutions, Lasting Results <br>
+        Soluciones completas, resultados duraderos
+    </p>
+</footer>
+
+</body>
+</html>
